@@ -26,3 +26,7 @@ Route::get('/array', function() {
 });
 
 Route::get('app', 'AppController@getApp');
+
+Route::get('/chat', 'ChatController@index');
+
+Route::get('/chat/post', 'ChatController@create');
